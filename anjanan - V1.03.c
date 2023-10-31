@@ -1,6 +1,4 @@
 
-
-
 void configSensors()
 {
 
@@ -21,7 +19,7 @@ void configSensors()
 	*/
 }
 
-
+void rotate(int clock_or_counter_clockwise, angle)
 void drive(int motor_power)
 {
 	motor[motorA] = motor[motorD] = motor_power;
@@ -31,7 +29,9 @@ void drive(int motor_power)
 
 void driveAround()
 {
-
+ rotate(1, 90)
+ drive(10)
+ while {SensorValue[   
 }
 
 void driveOver()
