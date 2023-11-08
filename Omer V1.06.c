@@ -191,12 +191,13 @@ bool obstacleDetected()
 
 int driveAround()
 {
-	rotateRobot(25, 90);
+	//rotateRobot(25, 90);
 	bool line = false;
 
+	drive(30);
 	while (SensorValue[S4] < 10 || !line)
 	{
-		drive(30);
+		
 		if (SensorValue[S3] == (int)colorRed)
 		{
 			line = true;
@@ -213,7 +214,7 @@ int driveAround()
 
 	while (SensorValue[S4] < 10 || !line)
 	{
-		drive(30);
+		//drive(30);
 		if (SensorValue[S3] == (int)colorRed)
 		{
 			line = true;
