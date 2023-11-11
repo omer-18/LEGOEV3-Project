@@ -4,18 +4,10 @@ Date: November 10th
 Version: 1.12
 
 Changed:
-- Added comments and made come more readable, made Code more efficient
-- Moved the calling of the drive function to the main code from obstacle Detected function
-- In main changed the initial value of detect as it was initalized as true (which logically doesn't make sense)
-    so I changed that then reversed the return statements of true and false in the function obstacle Detected
-- Completely revamped the Drive around function in order to optimize it
-- Changed the logic of the main code
-- Added functions to check for Green and Red
+WORKING DRIVE AROUND FUNCTION
 
 Additions to be made:
-- Drive to middle after red is detected on both sides
-- Vaulting up capabilities
-- Vaulting down capabilities
+VAULT FUNCTION
 */
 
 // Global Variables
@@ -292,7 +284,6 @@ bool driveAround(int motor_power, bool drive_direction_left_right)
 
     else
     {
-    	drive(0);
     		driveDist_CM(8,-motor_power);
         return true;
     }
