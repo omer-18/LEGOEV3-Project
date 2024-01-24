@@ -1,6 +1,6 @@
 V 2.0 IS FINAL FILE WITH COMPLETE WORKING CODE
 
-Welcome to our project page! Here you can find our full code, as well as some additonal photos and videos of the robot.
+Welcome to our project page! Here you can find our full code for the autonomous delivery robot.
 
 As part of our Mechatronics final design project, Anjanan Thirumahan, Omer Sajid, Jayden Mangaroo and I tasked ourselves with creating a robot that was able to deliver a given object to a desired end point, while traversing difficult terrain. 
 
